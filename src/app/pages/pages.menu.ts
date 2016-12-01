@@ -15,6 +15,20 @@ export const PAGES_MENU = [
         }
       },
       {
+        path: 'product',  // path for our page
+        data: { // custom menu declaration
+          menu: {
+            title: 'Product Page', // menu title
+            icon: 'ion-android-home', // menu icon
+          //  pathMatch: 'prefix', // use it if item children not displayed in menu
+            selected: false,
+            expanded: false,
+            order: 101
+          }
+        }
+      },
+
+      {
         path: 'editors',
         data: {
           menu: {
